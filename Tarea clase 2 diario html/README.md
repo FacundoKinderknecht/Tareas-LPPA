@@ -1,0 +1,1 @@
+Entrega de tarea clase 2 seleccionar una noticia actual de un diario online a elección y crear un documento HTML que posea el mismo contenido que la noticia.

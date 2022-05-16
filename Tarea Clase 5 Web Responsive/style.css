@@ -1,0 +1,87 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background: darkcyan;
+}
+.contenido *{
+    text-align: center;
+    align-items: center;
+}
+.titulo{
+    display: block;
+    width: 100%;
+}
+.titulo h4{
+    color: rgb(39, 41, 40);
+}
+.titulo h1{
+    font-size: 250%;
+    font-weight: bold;
+    white-space: inherit;
+
+}
+.titulo h2{
+    font-size: 80%;
+    color: rgb(44, 42, 42);
+    font-weight: normal;
+}
+.titulo p{
+    color: darkgrey;
+}
+.informacion{
+    align-items: center;
+    text-align: center;
+    padding: 0 10%;
+}
+img{
+    display: block;
+    width: 100%;
+}
+.dato-Imagen{
+    color: gray;
+    font-size: x-small;
+}
+.informacion p{
+    text-align: left;
+    line-height: 200%;
+}
+.informacion a{
+    text-decoration: none;
+}
+.informacion ul{
+    text-align: right;
+}
+.permisos{
+    font-size: x-small;
+    color: rgb(133, 3, 3);
+}
+
+@media screen and (min-width: 768px){
+    
+    body{
+        background-color: aquamarine;
+    }
+    .informacion{
+        align-items: center;
+        text-align: center;
+        padding: 0 15%;
+    }
+    
+}
+@media  screen and (min-width: 1024px){
+    body{
+        background-color: rgb(240, 240, 240);
+    }
+    .informacion{
+        justify-content: space-around;
+
+    }
+    .parrafo-izquierda{
+        float: left;
+        width: 45%;
+    }
+    .parrafo-derecha{
+        float: right;
+        width: 45%;
+    }
+}
+

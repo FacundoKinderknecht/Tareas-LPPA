@@ -1,0 +1,158 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background: rgb(255, 255, 255);
+}
+.header{
+    text-align: center;
+    color: black;
+    background-color: white;
+}
+.titulo-butt{
+    display: inline-flex;
+    justify-content: space-between;
+    justify-items: center;
+    width: 100%;
+    border-bottom: 1px solid lightgrey;
+    font-size: x-large;
+}
+.botones{
+    display: inline-flex;
+    align-items: center;
+    margin-left: 70px;
+}
+.boton-sus{
+    padding: 10px 25px;
+    background-color: dodgerblue;
+    color: white;
+    border-radius: 5%;
+    border: 0px;
+    margin: 5px;
+}
+.boton-lasti{
+    padding: 10px 25px;
+    background-color: grey;
+    color: black;
+    border-radius: 5%;
+    border: 0px;
+    margin: 5px;
+}
+.singin{
+    display: inline-flex;
+    align-items: center;
+    color: grey;
+    font-size: medium;
+    margin-right: 70px;
+}
+.singin p{
+    padding: 0 .25rem;   
+    margin: 0;
+}
+.list-Head *{
+
+    display: inline-flex;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+.list-Head{
+    list-style: none;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: lightgrey;
+}
+.corona{
+    color: darkred;
+}
+
+.contenido *{
+    text-align: center;
+    align-items: center;
+}
+.titulo{
+    padding-left: 15%;
+    padding-right: 15%;
+}
+.titulo h4{
+    color: rgb(39, 41, 40);
+}
+.titulo h1{
+    font-size: 60px;
+    font-weight: bold;
+    white-space: inherit;
+
+}
+.titulo h2{
+    font-size: 20px;
+    color: rgb(44, 42, 42);
+    font-weight: normal;
+}
+.titulo p{
+    color: lightgray;
+}
+.informacion{
+    align-items: center;
+    text-align: center;
+    padding: 0 30%;
+}
+img{
+    display: block;
+    width: 100%;
+}
+.dato-Imagen{
+    color: gray;
+    font-size: x-small;
+}
+.informacion p{
+    text-align: left;
+    line-height: 25px;
+}
+.informacion a{
+    text-decoration: none;
+}
+.informacion ul{
+    text-align: right;
+}
+.permisos{
+    font-size: x-small;
+    color: rgb(133, 3, 3);
+}
+footer{
+    width: 100%;
+}
+.list-Foot *{
+    align-items: center;
+    color: grey;
+    text-decoration: none;
+}
+.list-Foot{
+    list-style: none;
+    border-spacing: 50px;
+    border-top-width: 1px;
+    border-top-style: solid;
+    border-top-color: lightgray;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: lightgrey;
+}
+.list-Foot div{
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    justify-content: space-between;
+    display: inline-table;
+}
+.footer p{
+    color: gray;
+    text-align: center;
+    padding: 0 50px;
+}
+.footer h3{
+    text-align: center;
+    color: gray;
+}
+
